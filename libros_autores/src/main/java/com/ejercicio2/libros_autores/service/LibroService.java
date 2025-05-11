@@ -39,8 +39,8 @@ public class LibroService {
     }
 
     
-    public List<Libro> buscarLibros(Libro libro) {
-       
+    public List<Libro> buscarLibros(String titulo, String isbn, Integer anioPublicacion, Long autorId) {
+        return libroRepository.findByFiltros(titulo, isbn, anioPublicacion, autorId);
     }
 
 }

@@ -50,10 +50,11 @@ public class LibroController {
         libroService.eliminarLibro(libro);
     }
 
+    
+
     @GetMapping("/buscar")
     public List<Libro> buscar(@RequestBody Libro libro) {
-        return libroService.buscarLibros(libro);
-    }
-
+        return libroService.buscarLibros(libro.getTitulo(), libro.getIsbn(), libro.getAnioPublicacion(), libro.getAutor() != null ? libro.getAutor().getId() : null);
     
+}
 }

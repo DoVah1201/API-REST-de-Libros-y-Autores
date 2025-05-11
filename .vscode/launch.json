@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LibrosAutoresApplication<libros_autores>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ejercicio2.libros_autores.LibrosAutoresApplication",
+            "projectName": "libros_autores",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
