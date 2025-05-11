@@ -3,6 +3,11 @@ package com.ejercicio2.libros_autores.service;
 import java.util.List;
 import java.util.Optional;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> bafec6f519a4554ccc00f5c4a1d94dd296b66d42
 import com.ejercicio2.libros_autores.model.Autor;
 import com.ejercicio2.libros_autores.repository.AutorRepository;
 

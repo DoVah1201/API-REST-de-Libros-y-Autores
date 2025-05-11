@@ -51,6 +51,9 @@ public class LibroController {
     }
 
     @GetMapping("/buscar")
-    
+    public List<Libro> buscar(@RequestBody Libro libro) {
+        return libroService.buscarLibros(libro);
+    }
+
     
 }

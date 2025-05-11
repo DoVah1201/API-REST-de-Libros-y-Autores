@@ -38,5 +38,10 @@ public class LibroService {
         libroRepository.delete(libro);
     }
 
-    //Hacer el buscar con filtros y ordenacion
+    
+    public List<Libro> buscarLibros(Libro libro) {
+       
+    }
+
 }
+    
