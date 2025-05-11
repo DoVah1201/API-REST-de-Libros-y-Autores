@@ -3,8 +3,6 @@ package com.ejercicio2.libros_autores.service;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.stereotype.Service;
-
 import com.ejercicio2.libros_autores.model.Autor;
 import com.ejercicio2.libros_autores.repository.AutorRepository;
 
